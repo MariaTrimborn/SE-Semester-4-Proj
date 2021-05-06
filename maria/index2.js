@@ -14,7 +14,7 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 
-  var messagesRef = firebase.database().ref('messages');
+  var messagesRef = firebase.database().ref('Collected_Data');
 
   document.getElementById('enterinfo').addEventListener('submit', submitForm);
 
